@@ -5,51 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS - Form Validation</title>
-    <link rel="stylesheet" href="../Style/Style.css">
+    <title>Testing JS validation</title>
+    <link rel="stylesheet" href="../Style/style.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="header">
+        <div class="main">
             <h2>Connect With Us</h2>
-        </div>
-
-        <form action="" class="form" id="form" autocomplete="off" onsubmit="return validation()">
-            <div class="form-control">
-                <label for="">Username:</label>
-                <input type="text" name="" id="username" placeholder="Enter Your Full Name">
+        <form action="" autocomplete="off" onsubmit="return validation()">
+            <div class="form-component">
+                <label for="">Username: </label>
+                <input type="text" name="" id="username" placeholder="Username">
                 <span id="userAlert"></span>
             </div>
-            <div class="form-control">
-                <label for="">Email:</label>
-                <input type="email" name="" id="email" placeholder="Enter Your Full Email">
+            <div class="form-component">
+                <label for="">Email: </label>
+                <input type="email" name="" id="email" placeholder="email">
                 <span id="emailAlert"></span>
-
             </div>
-            <div class="form-control">
-                <label for="">Phone Number:</label>
-                <input type="tel" name="" id="phone-number" placeholder="Enter Your Full Phone Number">
+            <div class="form-component">
+                <label for="">Phone Number: </label>
+                <input type="tel" name="" id="phone-number" placeholder="Phone Number">
                 <span id="numberAlert"></span>
-
             </div>
-            <div class="form-control">
-                <label for="">Password:</label>
-                <input type="password" name="" id="password" placeholder="Enter Your Password">
-                <span id="passwordAlert"></span>
-
-
+            <div class="form-component">
+                <label for="">Password: </label>
+                <input type="password" name="" id="password" placeholder="Password">
+                <span id="passworAlert"></span>
             </div>
-            <div class="form-control">
-                <label for="">Confirm Password:</label>
-                <input type="password" name="" id="confirm-password" placeholder="Confirm Your Password">
+            <div class="form-component">
+                <label for="">Confirm Password: </label>
+                <input type="password" name="" id="cpassword" placeholder="confirm pasword">
                 <span id="cpasswordAlert"></span>
-
             </div>
             <input type="submit" value="Register" class="btn">
         </form>
+        </div>
     </div>
-    <script src="../Script/Script.js"></script>
+    <script src="../Script/script.js"></script>
 </body>
 
 </html>
